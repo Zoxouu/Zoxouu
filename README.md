@@ -76,7 +76,7 @@ Je travaille pour Nimélia, Manjikai et d'autres équipes
 
 [twitter]: https://twitter.com/zoxymodz
 [discord]: https://discord.gg/
-[youtube]: https://youtube.com/c/zoxymodz
+[youtube]: https://youtube.com/c/UCtGCUwYrP9gxlcwOs2LqIhg
 [intellij]: https://www.jetbrains.com/idea/
 [java]: https://www.oracle.com/java/technologies/javase-downloads.html
 [github]: https://www.github.com/ZoxyModz
