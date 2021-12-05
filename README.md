@@ -64,7 +64,7 @@ Je travail pour Nimalia, Manjikai et d'autre personnes.
 
 ## Mes stats
 
-<img alt="Mes stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=minemobs&show_icons=true&hide_border=true&theme=radical" />
+<img alt="Mes stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zoxouu&show_icons=true&hide_border=true&theme=radical" />
 
 ---
 
