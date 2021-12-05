@@ -14,7 +14,7 @@
 
 ---
 
-## J'apprends differents languages# :
+## Où me retrouver ? :
 <br />
 <br />
 
@@ -28,10 +28,11 @@
 
 ---
 
-## Les langages que je connais :
+## Les langages que j'apprend :
 
 [<img align="left" alt="Java" width="100px" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />][java]
 [<img align="left" alt="Python" width="100px" src="https://img.shields.io/badge/Python-1f629b?style=for-the-badge&logo=python&logoColor=white" />][python]
+[<img align="left" alt="CSharp" width="100px" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />][csharp]
 
 <br />
 <br />
@@ -60,3 +61,4 @@
 [gmail]: mailto:zoxymodz.yournovaped@gmail.com
 [python]:https://www.python.org
 [nimelia]:https://www.nimelia.fr
+[csharp]: https://docs.microsoft.com/en-us/dotnet/csharp/
