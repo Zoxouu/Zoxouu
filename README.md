@@ -6,7 +6,7 @@
 ## Je suis Administrateur de Nimelia :
 <br />
 
-[<img align="left" alt="ZoxyModz | Nimelia" src="https://cdn.discordapp.com/attachments/913513355728273458/916825144595472424/image0.png"/>][nimelia]
+[<img align="left" alt="ZoxyModz | Nimelia" src="https://media.discordapp.net/attachments/913513355728273458/916825144595472424/image0.png?width=780&height=585"/>][nimelia]
 
 <br />
 <br />
