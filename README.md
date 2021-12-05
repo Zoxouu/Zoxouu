@@ -1,13 +1,19 @@
 ### Salut, Moi c'est ZoxyModz 
 <br />
 <br />
+
+---
+
 ##Je suis Administrateur de Nimelia.
 <br />
 
-<img alt="Nimelia" src="https://cdn.discordapp.com/attachments/913513355728273458/916825144595472424/image0.png"/>
+[<img align="left" alt="ZoxyModz | Nimelia" width="100px" src="https://cdn.discordapp.com/attachments/913513355728273458/916825144595472424/image0.png"/>][nimelia]
 
 <br />
 <br />
+
+---
+
 ##J'apprends differents languages# .
 <br />
 <br />
