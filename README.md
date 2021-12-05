@@ -1,11 +1,13 @@
 ### Salut, Moi c'est ZoxyModz 
 <br />
-J'apprends differents languages# .
 <br />
 Je suis Administrateur de Nimelia.
 <br />
-<br />
 
+<br />
+<br />
+J'apprends differents languages# .
+<br />
 [<img align="left" alt="ZoxyModz | Discord" width="100px" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>][discord]
 [<img align="left" alt="ZoxyModz | Twitter" width="100px" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>][twitter]
 [<img align="left" alt="ZoxyModz | Youtube" width="100px" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>][youtube]
