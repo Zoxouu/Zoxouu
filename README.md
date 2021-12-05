@@ -1,7 +1,8 @@
 ### Salut, Moi c'est ZoxyModz 
 <br />
-
----
+Je suis un jeune developper de 16 ans, je dev principalement en java.
+<br />
+Je travail pour Nimalia, Manjikai et d'autre personnes.
 
 ## Je suis Administrateur de Nimelia :
 <br />
@@ -9,14 +10,8 @@
 [<img align="left" alt="ZoxyModz | Nimelia" src="https://media.discordapp.net/attachments/913513355728273458/916825144595472424/image0.png?width=780&height=585"/>][nimelia]
 
 <br />
-<br />
-<br />
-
----
 
 ## Où me retrouver ? :
-<br />
-<br />
 
 [<img align="left" alt="ZoxyModz | Discord" width="100px" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>][discord]
 [<img align="left" alt="ZoxyModz | Twitter" width="100px" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>][twitter]
@@ -25,8 +20,8 @@
 
 <br />
 <br />
-
----
+<br />
+<br />
 
 ## Les langages que j'apprend :
 
@@ -36,8 +31,13 @@
 
 <br />
 <br />
-
----
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ## Mes stats
 
