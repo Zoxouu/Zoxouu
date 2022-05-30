@@ -4,7 +4,7 @@ Je suis un jeune développeur de 17 ans, je développe principalement en java.
 <br />
 Je travaille pour Nimélia, Manjikai et d'autres équipes
 
-## Je suis Administrateur de Nimelia :
+## Je suis Owner du projet Nimelia :
 <br />
 
 [<img align="left" alt="ZoxyModz | Nimelia" src="https://media.discordapp.net/attachments/913513355728273458/916825144595472424/image0.png?width=780&height=585"/>][nimelia]
