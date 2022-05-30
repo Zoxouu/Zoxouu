@@ -66,13 +66,11 @@ Je travaille pour Nimélia, Manjikai et d'autres équipes
 [<img align="left" alt="Contact mail" width="100px" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>][gmail]
 
 [twitter]: https://twitter.com/zoxymodz
-[discord]: https://discord.gg/
+[discord]: https://discord.com/users/709471121656905829
 [youtube]: https://www.youtube.com/channel/UCtGCUwYrP9gxlcwOs2LqIhg
 [intellij]: https://www.jetbrains.com/idea/
-[java]: https://www.oracle.com/java/technologies/javase-downloads.html
-[github]: https://www.github.com/ZoxyModz
+[github]: https://github.com/Zoxouu
 [vscode]: https://code.visualstudio.com/
-[gmail]: mailto:zoxymodz.yournovaped@gmail.com
-[python]:https://www.python.org
+[gmail]: mailto:pro@zoxymodz.me
 [nimelia]:https://www.nimelia.fr
-[csharp]: https://docs.microsoft.com/en-us/dotnet/csharp/
+
