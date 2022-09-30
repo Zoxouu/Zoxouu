@@ -29,7 +29,6 @@ Je suis un jeune développeur de 17 ans, je développe le plus souvent en java, 
 
 <img alt="Mes stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zoxouu&show_icons=true&hide_border=true&theme=radical" />
 
----
 
 ## Mes outils :
 
