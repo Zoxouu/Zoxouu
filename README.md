@@ -1,8 +1,7 @@
 ### Salut, Moi c'est ZoxyModz 
 <br />
-Je suis un jeune développeur de 17 ans, je dev principalement en java.
-<br />
-Je travaille pour Nimélia, Manjikai et d'autres équipes
+Je suis un jeune développeur de 17 ans, je développe le plus souvent en java.
+Je suis membre de la Nimelia, Aetia et d'autres équipes.
 
 ## Je suis Owner du projet Nimelia :
 <br />
