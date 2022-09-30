@@ -2,10 +2,10 @@
 <br />
 Je suis un jeune développeur de 17 ans, je développe le plus souvent en java, membre de Nimelia, Aetia et d'autres équipes j'effectue différentes tâches.
 
-# Je dirige le projet Nimelia. :
+# Je dirige le projet Nimelia & Aetia. :
 <br />
 
-[<img align="left" alt="ZoxyModz | Nimelia" src="https://media.discordapp.net/attachments/913513355728273458/916825144595472424/image0.png?width=780&height=585"/>][nimelia]
+[<img align="left" alt="ZoxyModz | Nimelia" src="https://cdn.discordapp.com/attachments/822233414278184980/1025542980343451658/github_serv_icon.png"/>][nimelia]
 
 <br />
 <br />
