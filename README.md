@@ -5,8 +5,7 @@ Je suis un jeune développeur de 17 ans, je développe le plus souvent en java, 
 # Je dirige le projet Nimelia & Aetia. :
 <br />
 
-[<img align="left" alt="ZoxyModz | Nimelia" src="https://cdn.discordapp.com/attachments/822233414278184980/1025542980343451658/github_serv_icon.png"/>][nimelia]
-
+[<img align="left" alt="ZoxyModz | Nimelia" src="https://cdn.discordapp.com/attachments/822233414278184980/1025542980343451658/github_serv_icon.png"/>]
 <br />
 <br />
 <br />
@@ -57,5 +56,4 @@ Je suis un jeune développeur de 17 ans, je développe le plus souvent en java, 
 [github]: https://github.com/Zoxouu
 [vscode]: https://code.visualstudio.com/
 [gmail]: mailto:pro@zoxymodz.me
-[nimelia]:https://www.nimelia.fr
 
