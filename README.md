@@ -9,7 +9,8 @@ Jeune développeur de **17 ans**, je programmation habituellement en **java**, m
 Young developer of **17 years old**, I usually program in **java**, member of **different teams** I carry out different tasks.
 # States
 
-<img alt="Mes stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zoxouu&show_icons=true&hide_border=true&theme=black" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zoxouu&count_private=true&langs_count=10&theme=synthwave&hide_border=true"/>
+
 
 ## My tools
 
