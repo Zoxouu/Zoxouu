@@ -1,12 +1,12 @@
 # Biography
 **FR**
 
-Jeune développeur de **17 ans**, je programmation habituellement en **java**, membre de **différentes équipes** je realise différentes tâches.
+Jeune développeur de **19 ans**, je programmation habituellement en **java**, membre de **différentes équipes** je realise différentes tâches.
 
 
 **EN**
 
-Young developer of **17 years old**, I usually program in **java**, member of **different teams** I carry out different tasks.
+Young developer of **19 years old**, I usually program in **java**, member of **different teams** I carry out different tasks.
 # States
 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zoxouu&count_private=true&langs_count=10&theme=synthwave&hide_border=true"/>
