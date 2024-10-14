@@ -1,8 +1,8 @@
-🎉 Welcome to My Profile!
+#🎉 Welcome to My Profile!
 
-👋 Salut ! Je suis Zoxouu, un développeur passionné de 19 ans, spécialisé en Java et toujours à la recherche de nouveaux défis techniques. Voici un aperçu de mon parcours et de mes outils favoris pour te donner un aperçu de mon travail et de ma passion pour le développement.
+###👋 Salut ! Je suis Zoxouu, un développeur passionné de 19 ans, spécialisé en Java et toujours à la recherche de nouveaux défis techniques. Voici un aperçu de mon parcours et de mes outils favoris pour te donner un aperçu de mon travail et de ma passion pour le développement.
 
-# 👨‍💻 Biography
+## 👨‍💻 Biography
 
 **FR**🇫🇷
 
@@ -18,13 +18,13 @@ Additionally, I am interested in learning new programming languages like **Pytho
 
 ---
 
-# 📊 My Stats
+## 📊 My Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Zoxouu&count_private=true&langs_count=10&theme=synthwave&hide_border=true)
 
 ---
 
-# 🛠️ My Tools
+## 🛠️ My Tools
 
 ### Development Environments
 - **Java**: Expertise in creating desktop and web applications.
