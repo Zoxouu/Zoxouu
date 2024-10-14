@@ -34,22 +34,6 @@ Additionally, I am interested in learning new programming languages like **Pytho
 
 ---
 
-## 🚀 Projects
-
-### [WorldGUI](https://github.com/Zoxouu/WorldGUI)
-Un projet ambitieux dédié au développement d'interfaces graphiques en Java. Ce projet vise à améliorer l'interaction utilisateur avec des fonctionnalités avancées et une expérience fluide. Contributions bienvenues !
-
-### [PythonWorkSchool](https://github.com/Zoxouu/PythonWorkSchool)
-Une plateforme d'apprentissage du langage Python avec des exercices pratiques et des projets éducatifs. Parfait pour les débutants cherchant à se familiariser avec Python.
-
-### [Linux-Installer](https://github.com/Zoxouu/Linux-Installer)
-Un installeur simplifié pour les distributions Linux, conçu pour faciliter la configuration et l'installation des environnements de développement.
-
-### [Portfolio Website](https://github.com/Zoxouu/portfolio)
-Mon site personnel pour présenter mes projets, mes compétences et mes expériences. Une vitrine pour mes travaux et mes réalisations dans le domaine du développement.
-
----
-
 ## 🌱 Learning
 
 Je m'efforce de rester à jour avec les dernières technologies et tendances dans le développement. Actuellement, j'explore les sujets suivants :
