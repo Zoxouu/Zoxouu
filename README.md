@@ -36,8 +36,8 @@ Additionally, I am interested in learning new programming languages like **Pytho
 [<img align="left" alt="Vs Code" width="75px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/1200px-Visual_Studio_Code_1.18_icon.svg.png" />][vscode]
 [<img align="left" alt="Intellij" width="75px" src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" />][intellij]
 
----
- 
+-----
+
 ## 🌱 Learning
 
 I strive to stay up-to-date with the latest technologies and trends in development. Currently, I am exploring the following topics:
