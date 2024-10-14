@@ -2,11 +2,15 @@
 
 **FR**
 
-Je suis un jeune développeur de **19 ans**, passionné par la **programmation en Java**. Membre actif de **différentes équipes**, je participe à des projets variés, allant du développement de logiciels à la gestion de systèmes.
+Je suis un jeune développeur de **19 ans**, passionné par la **programmation en Java**. Membre actif de **différentes équipes**, je participe à des projets variés, allant du développement de logiciels à la gestion de systèmes. Mon objectif est de créer des solutions innovantes et efficaces tout en continuant à apprendre et à grandir dans le domaine du développement.
+
+En parallèle, je m'intéresse à l'apprentissage de nouveaux langages de programmation comme **Python** et à l'administration des systèmes Linux. Je suis également impliqué dans des projets open-source où je peux partager mes compétences et collaborer avec d'autres développeurs.
 
 **EN**
 
-I am a **19-year-old** young developer passionate about **Java programming**. An active member of **various teams**, I engage in diverse projects ranging from software development to systems management.
+I am a **19-year-old** young developer passionate about **Java programming**. An active member of **various teams**, I engage in diverse projects ranging from software development to systems management. My goal is to create innovative and effective solutions while continuing to learn and grow in the field of development.
+
+Additionally, I am interested in learning new programming languages like **Python** and in Linux system administration. I am also involved in open-source projects where I can share my skills and collaborate with other developers.
 
 ---
 
@@ -18,23 +22,40 @@ I am a **19-year-old** young developer passionate about **Java programming**. An
 
 ## 🛠️ My Tools
 
+### Development Environments
+- **Java**: Expertise in creating desktop and web applications.
+- **Python**: Exploring scripting and automation projects.
+- **Linux**: Proficient in command-line operations and system management.
+
+### IDEs
 [<img align="left" alt="GitHub" width="75px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][github]
 [<img align="left" alt="Vs Code" width="75px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/1200px-Visual_Studio_Code_1.18_icon.svg.png" />][vscode]
 [<img align="left" alt="Intellij" width="75px" src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" />][intellij]
-
 
 ---
 
 ## 🚀 Projects
 
 ### [WorldGUI](https://github.com/Zoxouu/WorldGUI)
-Un projet ambitieux dédié au développement d'interfaces graphiques en Java. Contribuez à améliorer l'expérience utilisateur!
+Un projet ambitieux dédié au développement d'interfaces graphiques en Java. Ce projet vise à améliorer l'interaction utilisateur avec des fonctionnalités avancées et une expérience fluide. Contributions bienvenues !
 
 ### [PythonWorkSchool](https://github.com/Zoxouu/PythonWorkSchool)
-Apprentissage du langage Python avec des exercices pratiques et des projets éducatifs.
+Une plateforme d'apprentissage du langage Python avec des exercices pratiques et des projets éducatifs. Parfait pour les débutants cherchant à se familiariser avec Python.
 
 ### [Linux-Installer](https://github.com/Zoxouu/Linux-Installer)
-Un installeur simplifié pour les distributions Linux, conçu pour faciliter la configuration et l'installation.
+Un installeur simplifié pour les distributions Linux, conçu pour faciliter la configuration et l'installation des environnements de développement.
+
+### [Portfolio Website](https://github.com/Zoxouu/portfolio)
+Mon site personnel pour présenter mes projets, mes compétences et mes expériences. Une vitrine pour mes travaux et mes réalisations dans le domaine du développement.
+
+---
+
+## 🌱 Learning
+
+Je m'efforce de rester à jour avec les dernières technologies et tendances dans le développement. Actuellement, j'explore les sujets suivants :
+- Développement d'applications Web avec **Spring Boot**
+- Automatisation des tâches avec **Python**
+- Gestion de conteneurs avec **Docker**
 
 ---
 
