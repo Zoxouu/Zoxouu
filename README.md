@@ -1,6 +1,6 @@
 # 🎉 Welcome to My Profile!
 
-### 👋 Salut ! Je suis Zoxouu, un développeur passionné de 19 ans, spécialisé en Java et toujours à la recherche de nouveaux défis techniques. Voici un aperçu de mon parcours et de mes outils favoris pour te donner un aperçu de mon travail et de ma passion pour le développement.
+  👋 Salut ! Je suis Zoxouu, un développeur passionné de 19 ans, spécialisé en Java et toujours à la recherche de nouveaux défis techniques. Voici un aperçu de mon parcours et de mes outils favoris pour te donner un aperçu de mon travail et de ma passion pour le développement.
 
 ## 👨‍💻 Biography
 
