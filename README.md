@@ -19,8 +19,8 @@ Additionally, I am interested in learning new programming languages like **Pytho
 ---
 
 ## 📊 My Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Zoxouu&count_private=true&langs_count=10&theme=synthwave&hide_border=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=zoxouu&theme=material-palenight&show_icons=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Zoxouu&count_private=true&langs_count=10&theme=material-palenight&hide_border=true)
 
 ---
 
