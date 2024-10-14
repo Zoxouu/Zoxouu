@@ -1,6 +1,6 @@
 # 🎉 Welcome to My Profile!
 
-  👋 Salut ! Je suis Zoxouu, un développeur passionné de 19 ans, spécialisé en Java et toujours à la recherche de nouveaux défis techniques. Voici un aperçu de mon parcours et de mes outils favoris pour te donner un aperçu de mon travail et de ma passion pour le développement.
+  👋 Hi! I’m Zoxouu, a passionate 19-year-old developer specializing in Java and always on the lookout for new technical challenges. Here’s an overview of my journey and my favorite tools to give you insight into my work and my love for development.
 
 ## 👨‍💻 Biography
 
@@ -40,10 +40,10 @@ Additionally, I am interested in learning new programming languages like **Pytho
 
 ## 🌱 Learning
 
-Je m'efforce de rester à jour avec les dernières technologies et tendances dans le développement. Actuellement, j'explore les sujets suivants :
-- Développement d'applications Web avec **Spring Boot**
-- Automatisation des tâches avec **Python**
-- Gestion de conteneurs avec **Docker**
+I strive to stay up-to-date with the latest technologies and trends in development. Currently, I am exploring the following topics:
+- Web application development with **Spring Boot**
+- Task automation with **Python**
+- Container management with **Docker**
 
 ---
 
@@ -57,7 +57,7 @@ Je m'efforce de rester à jour avec les dernières technologies et tendances dan
 
 ## 🌟 Let's Collaborate!
 
-Je suis toujours à la recherche de nouveaux projets intéressants et de collaboration. N'hésitez pas à me contacter si vous avez des idées ou des propositions !
+I am always looking for interesting new projects and collaborations. Feel free to contact me if you have any ideas or proposals!
 
 ---
 
