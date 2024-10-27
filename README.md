@@ -61,7 +61,7 @@ I am always looking for interesting new projects and collaborations. Feel free t
 
 ---
 
-[twitter]: https://twitter.com/zoxymodz
+[twitter]: https://twitter.com/Zoxouu
 [discord]: https://discord.com/users/709471121656905829
 [intellij]: https://www.jetbrains.com/idea/
 [github]: https://github.com/Zoxouu
