@@ -37,6 +37,7 @@ Additionally, I am interested in learning new programming languages like **Pytho
 [<img align="left" alt="Intellij" width="75px" src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" />][intellij]
 
 <br><br><br>
+
 ---
 
 ## 🌱 Learning
@@ -54,6 +55,7 @@ I strive to stay up-to-date with the latest technologies and trends in developme
 [<img align="left" alt="ZoxyModz | Twitter" width="100px" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>][twitter]
 [<img align="left" alt="Contact mail" width="100px" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>][gmail]
 
+<br><br><br>
 
 ---
 
