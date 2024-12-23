@@ -24,15 +24,15 @@ const projects = [
     image: "/NIcon.png?height=400&width=600",
     tags: ["Minecraft", "MongoDB", "Redis", "Java", "Linux"],
     github: "https://github.com/NimeliaMC",
-    demo: "null",
+    demo: "",
   },
   {
     title: "LZCorp",
     description: "LZCorp est une agence de freelancers (Plusieurs domaines).",
     image: "/LZIcon.png?height=400&width=600",
     tags: ["React", "Java", "Gestion-Staff"],
-    github: "#",
-    demo: "lzcorp.fr",
+    github: "",
+    demo: "https://lzcorp.fr",
   },
   {
     title: "FreshPerf",
@@ -40,7 +40,7 @@ const projects = [
     image: "/FIcon.png?height=400&width=600",
     tags: ["Minecraft", "Java", "Redis", "PostgreSQL", "React", "Linux"],
     github: "https://github.com/FreshPerf",
-    demo: "freshperf.fr",
+    demo: "https://freshperf.fr",
   },
 ]
 
@@ -305,18 +305,22 @@ export default function Home() {
                           ))}
                         </div>
                         <div className="flex justify-center gap-4">
-                          <Button asChild variant="outline" size="sm">
+                          {project.github && (
+                            <Button asChild variant="outline" size="sm">
                             <Link href={project.github}>
                               <Github className="mr-2 h-4 w-4" />
                               Code
                             </Link>
                           </Button>
-                          <Button asChild variant="outline" size="sm">
-                            <Link href={project.demo}>
-                              <ExternalLink className="mr-2 h-4 w-4" />
-                              Site
-                            </Link>
-                          </Button>
+                        )}
+                          {project.demo && (
+                            <Button asChild variant="outline" size="sm">
+                              <Link href={project.demo}>
+                                <ExternalLink className="mr-2 h-4 w-4" />
+                                {project.demo.replace('https://', '')}
+                              </Link>
+                            </Button>
+                          )}
                         </div>
                       </CardContent>
                     </Card>
@@ -337,14 +341,14 @@ export default function Home() {
           {/* Footer */}
           <footer className="py-8">
             <div className="container mx-auto px-4 text-center">
-            <motion.p
-                    initial="hidden"
-                    animate="visible"
-                    variants={fadeInUpVariants}
-                    transition={{ delay: 0.4 }}
-            >
-              &copy; {new Date().getFullYear()} Zoxouu. Tous droits réservés.
-            </motion.p>
+              <motion.p
+                initial="hidden"
+                animate="visible"
+                variants={fadeInUpVariants}
+                transition={{ delay: 0.4 }}
+              >
+                &copy; {new Date().getFullYear()} Zoxouu. Tous droits réservés.
+              </motion.p>
             </div>
           </footer>
         </div>
