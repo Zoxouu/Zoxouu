@@ -69,4 +69,4 @@ I am always looking for interesting new projects and collaborations. Feel free t
 [intellij]: https://www.jetbrains.com/idea/
 [github]: https://github.com/Zoxouu
 [vscode]: https://code.visualstudio.com/
-[gmail]: mailto:pro@zoxymodz.me
+[gmail]: mailto:pro@zoxouu.me
