@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from 'next/image';
+import { motion } from "framer-motion"
 
 type Avis = {
     author: string;
@@ -63,7 +64,6 @@ const AvisSection: React.FC = () => {
     }
 
     if (avis.length === 0) {
-        console.log('Aucun avis trouvé ou le tableau est vide.');
         return (
             <div className="text-center py-20">
                 <span>Aucun avis disponible.</span>
@@ -71,34 +71,49 @@ const AvisSection: React.FC = () => {
         );
     }
 
-    console.log('Avis récupérés:', avis);
+    const fadeInUpVariants = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0 }
+    }
 
     return (
-        <div className="py-10">
-            <h2 className="text-2xl font-bold text-center mb-8">Avis</h2>
-
-            <div className="overflow-hidden relative">
-                <div className="flex animate-scroll gap-6">
-                    {[...avis, ...avis].map((avisItem, index) => (
-                        <div key={index} className="bg-[#1A1A1A] rounded-2xl p-5 max-w-sm">
-                            <div className="flex gap-1 mb-2">{avisItem.note.replace(" / 5","")}</div>
-                            <p className="text-white text-[15px] leading-snug mb-2">{avisItem.commentaire}</p>
-                            <div className="flex items-center gap-2.5">
-                                <Image src={avisItem.image} alt="" className="w-7 h-7 rounded-full object-cover" />
-                                <div>
-                                    <p className="text-white text-[13px] font-medium leading-tight">
-                                        {avisItem.author}
-                                    </p>
-                                    <p className="text-[#737373] text-[11px]">
-                                        {formatDate(avisItem.date)} on Discord
-                                    </p>
-                                </div>
+        <div className="flex animate-scroll gap-6">
+            {[...avis].map((avisItem, index) => (
+                <motion.div
+                    key={index}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                    variants={fadeInUpVariants}
+                    transition={{ delay: index * 0.1 }}
+                >
+                    <div className="rounded-2xl p-5 max-w-sm bg-card text-card-foreground shadow-md">
+                        <div className="flex gap-1 mb-2">
+                            {avisItem.note.replace(" / 5", "")}
+                        </div>
+                        <p className="text-gray-800 dark:text-gray-200 text-[15px] leading-snug mb-2">{avisItem.commentaire}</p>
+                        <div className="flex items-center gap-2.5">
+                            <Image
+                                src={avisItem.image}
+                                alt={avisItem.author}
+                                className="w-7 h-7 rounded-full object-cover"
+                                width="100"
+                                height="100"
+                            />
+                            <div>
+                                <p className="text-gray-800 dark:text-gray-100 text-[13px] font-medium leading-tight">
+                                    {avisItem.author}
+                                </p>
+                                <p className="text-gray-500 dark:text-gray-400 text-[11px]">
+                                    {formatDate(avisItem.date)} on Discord
+                                </p>
                             </div>
                         </div>
-                    ))}
-                </div>
-            </div>
+                    </div>
+                </motion.div>
+            ))}
         </div>
+
     );
 };
 

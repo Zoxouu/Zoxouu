@@ -92,7 +92,7 @@ export default function Home() {
   return (
     <div className="relative">
       {/* Hero Section */}
-      <section ref={targetRef} className="relative min-h-screen bg-gradient-to-b from-purple-900 to-background pt-20">
+      <section ref={targetRef} className="relative min-h-screen bg-gradient-to-b from-purple-400 dark:from-purple-900 to-background pt-20">
         <motion.div
           style={{ y, opacity }}
           className="container relative z-10 flex min-h-screen flex-col items-center justify-center px-4"
@@ -107,14 +107,14 @@ export default function Home() {
                   transition={{ delay: 0.2 }}
                   className="text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none"
                 >
-                  Développeur & <span className="text-purple-400">Admin Sys</span>
+                  Développeur & <span className="dark:text-purple-400 text-purple-900">Admin Sys</span>
                 </motion.h1>
                 <motion.p
                   initial="hidden"
                   animate="visible"
                   variants={fadeInUpVariants}
                   transition={{ delay: 0.4 }}
-                  className="max-w-[600px] text-gray-200 md:text-xl"
+                  className="max-w-[600px] md:text-xl"
                 >
                   Passionné par le développement et l&apos;administration système, je transforme des idées complexes en solutions numériques innovantes.
                 </motion.p>
@@ -270,7 +270,7 @@ export default function Home() {
 
       </section>
 
-      <div className="relative min-h-screen bg-gradient-to-t from-purple-900 to-background pt-20">
+      <div className="relative min-h-screen bg-gradient-to-t from-purple-400 dark:from-purple-900 to-background pt-20">
         <div className="container mx-auto px-4">
           {/* Projects Section */}
           <section id="projects" className="py-20">
@@ -329,14 +329,22 @@ export default function Home() {
           {/* Avis Section */}
           <section id="avis" className="py-20 flex justify-center">
             <div className="container mx-auto px-4">
+              <h2 className="text-3xl font-bold mb-8 text-center">Mes Projets</h2>
               <Avis />
             </div>
           </section>
 
           {/* Footer */}
-          <footer className="py-8 text-white">
+          <footer className="py-8">
             <div className="container mx-auto px-4 text-center">
-              <p>&copy; {new Date().getFullYear()} Zoxouu. Tous droits réservés.</p>
+            <motion.p
+                    initial="hidden"
+                    animate="visible"
+                    variants={fadeInUpVariants}
+                    transition={{ delay: 0.4 }}
+            >
+              &copy; {new Date().getFullYear()} Zoxouu. Tous droits réservés.
+            </motion.p>
             </div>
           </footer>
         </div>
