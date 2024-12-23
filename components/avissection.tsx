@@ -46,14 +46,6 @@ const AvisSection: React.FC = () => {
         return date.toISOString().split('T')[0]; // Récupère uniquement la date au format 'YYYY-MM-DD'
     };
 
-    const renderStars = (rating: string) => {
-        const numStars = parseInt(rating.split(" ")[0], 10); // "4 / 5" devient 4
-        const stars = Array.from({ length: 5 }, (_, index) =>
-            index < numStars ? '⭐' : '⭐' // Affiche une étoile pleine ou vide
-        );
-        return stars.join('');
-    };
-
     if (loading) {
         return (
             <div className="text-center py-20">
@@ -89,7 +81,7 @@ const AvisSection: React.FC = () => {
                 <div className="flex animate-scroll gap-6">
                     {[...avis, ...avis].map((avisItem, index) => (
                         <div key={index} className="bg-[#1A1A1A] rounded-2xl p-5 max-w-sm">
-                            <div className="flex gap-1 mb-2">{renderStars(avisItem.note)}</div>
+                            <div className="flex gap-1 mb-2">{avisItem.note.replace(" / 5","")}</div>
                             <p className="text-white text-[15px] leading-snug mb-2">{avisItem.commentaire}</p>
                             <div className="flex items-center gap-2.5">
                                 <Image src={avisItem.image} alt="" className="w-7 h-7 rounded-full object-cover" />
