@@ -150,17 +150,12 @@ export default function Home() {
                     <Github className="h-6 w-6" />
                   </Button>
                 </Link>
-                <Link href="https://linkedin.com/in/Zoxouu" target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="icon" className="text-purple-400 hover:text-purple-300">
-                    <Linkedin className="h-6 w-6" />
-                  </Button>
-                </Link>
                 <Link href="https://twitter.com/Zoxouu" target="_blank" rel="noopener noreferrer">
                   <Button variant="ghost" size="icon" className="text-purple-400 hover:text-purple-300">
                     <Twitter className="h-6 w-6" />
                   </Button>
                 </Link>
-                <Link href="mailto:your@email.com">
+                <Link href="mailto:pro@zoxouu.me">
                   <Button variant="ghost" size="icon" className="text-purple-400 hover:text-purple-300">
                     <Mail className="h-6 w-6" />
                   </Button>
@@ -307,12 +302,12 @@ export default function Home() {
                         <div className="flex justify-center gap-4">
                           {project.github && (
                             <Button asChild variant="outline" size="sm">
-                            <Link href={project.github}>
-                              <Github className="mr-2 h-4 w-4" />
-                              Code
-                            </Link>
-                          </Button>
-                        )}
+                              <Link href={project.github}>
+                                <Github className="mr-2 h-4 w-4" />
+                                Code
+                              </Link>
+                            </Button>
+                          )}
                           {project.demo && (
                             <Button asChild variant="outline" size="sm">
                               <Link href={project.demo}>
@@ -333,8 +328,17 @@ export default function Home() {
           {/* Avis Section */}
           <section id="avis" className="py-20 flex justify-center">
             <div className="container mx-auto px-4">
-              <h2 className="text-3xl font-bold mb-8 text-center">Mes Projets</h2>
-              <Avis />
+              <h2 className="text-3xl font-bold mb-8 text-center">Avis des clients</h2>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUpVariants}
+                transition={{ delay:  0.5 }}
+                className="grid gap-8 md:grid-cols-2 lg:grid-cols-4"
+              >
+                <Avis />
+              </motion.div>
             </div>
           </section>
 

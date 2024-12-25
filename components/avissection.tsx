@@ -1,8 +1,5 @@
 "use client";
-
 import { useEffect, useState } from "react";
-import Image from 'next/image';
-import { motion } from "framer-motion"
 
 type Avis = {
     author: string;
@@ -19,21 +16,26 @@ const AvisSection: React.FC = () => {
 
     const fetchAvis = async () => {
         setLoading(true);
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 5000);
+
         try {
-            const response = await fetch("http://192.168.10.52:8080/api/avis", {
-                mode: 'cors',
+            const response = await fetch("https://api.zoxouu.me/api/avis", {
+                mode: "cors",
+                signal: controller.signal,
             });
 
             if (!response.ok) {
-                throw new Error(`Erreur ${response.status}: ${response.statusText}`);
+                throw new Error("Erreur réseau");
             }
 
             const data = await response.json();
             setAvis(data);
         } catch (err) {
-            console.error('Erreur lors de la récupération des avis:', err);
-            setError('Erreur lors de la récupération des avis.');
+            console.error("Erreur lors de la récupération des avis:", err);
+            setError("Erreur lors de la récupération des avis.");
         } finally {
+            clearTimeout(timeoutId);
             setLoading(false);
         }
     };
@@ -44,7 +46,17 @@ const AvisSection: React.FC = () => {
 
     const formatDate = (dateString: string) => {
         const date = new Date(dateString);
-        return date.toISOString().split('T')[0]; // Récupère uniquement la date au format 'YYYY-MM-DD'
+        return date.toLocaleDateString("fr-FR", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+        });
+    };
+
+    const responsive = {
+        0: { items: 1 },
+        768: { items: 2 },
+        1024: { items: 3 },
     };
 
     if (loading) {
@@ -71,49 +83,38 @@ const AvisSection: React.FC = () => {
         );
     }
 
-    const fadeInUpVariants = {
-        hidden: { opacity: 0, y: 20 },
-        visible: { opacity: 1, y: 0 }
-    }
-
     return (
-        <div className="flex animate-scroll gap-6">
-            {[...avis].map((avisItem, index) => (
-                <motion.div
+        avis.map((avisItem, index) => (
+                <div
                     key={index}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
-                    variants={fadeInUpVariants}
-                    transition={{ delay: index * 0.1 }}
+                    className="rounded-lg p-6 w-[350px] bg-card text-card-foreground shadow-md h-[300px] flex flex-col justify-between"
                 >
-                    <div className="rounded-2xl p-5 max-w-sm bg-card text-card-foreground shadow-md">
-                        <div className="flex gap-1 mb-2">
+                    <div className="flex gap-1 mb-2">
+                        <span className="font-bold text-xl text-yellow-500">
                             {avisItem.note.replace(" / 5", "")}
-                        </div>
-                        <p className="text-gray-800 dark:text-gray-200 text-[15px] leading-snug mb-2">{avisItem.commentaire}</p>
-                        <div className="flex items-center gap-2.5">
-                            <Image
-                                src={avisItem.image}
-                                alt={avisItem.author}
-                                className="w-7 h-7 rounded-full object-cover"
-                                width="100"
-                                height="100"
-                            />
-                            <div>
-                                <p className="text-gray-800 dark:text-gray-100 text-[13px] font-medium leading-tight">
-                                    {avisItem.author}
-                                </p>
-                                <p className="text-gray-500 dark:text-gray-400 text-[11px]">
-                                    {formatDate(avisItem.date)} on Discord
-                                </p>
-                            </div>
+                        </span>
+                    </div>
+                    <p className="text-gray-800 dark:text-gray-200 text-[14px] leading-snug mb-2 flex-1 flex items-center justify-center">
+                        {avisItem.commentaire}
+                    </p>
+                    <div className="flex items-center gap-2.5">
+                        <img
+                            src={avisItem.image}
+                            alt={avisItem.author}
+                            className="w-8 h-8 rounded-full object-cover"
+                        />
+                        <div>
+                            <p className="text-gray-800 dark:text-gray-100 text-[13px] font-medium leading-tight">
+                                {avisItem.author}
+                            </p>
+                            <p className="text-gray-500 dark:text-gray-400 text-[11px]">
+                                {formatDate(avisItem.date)} sur Discord
+                            </p>
                         </div>
                     </div>
-                </motion.div>
-            ))}
-        </div>
-
+                </div>
+                )
+            )
     );
 };
 
