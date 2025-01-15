@@ -8,13 +8,13 @@
 
 Je suis un jeune développeur de **19 ans**, passionné par la **programmation en Java**. Membre actif de **différentes équipes**, je participe à des projets variés, allant du développement de logiciels à la gestion de systèmes. Mon objectif est de créer des solutions innovantes et efficaces tout en continuant à apprendre et à grandir dans le domaine du développement.
 
-En parallèle, je m'intéresse à l'apprentissage de nouveaux langages de programmation comme **Python** et à l'administration des systèmes Linux. Je suis également impliqué dans des projets open-source où je peux partager mes compétences et collaborer avec d'autres développeurs.
+En parallèle, je m'intéresse à l'apprentissage de nouveaux langages de programmation et à l'administration des systèmes Linux. Je suis également impliqué dans des projets open-source où je peux partager mes compétences et collaborer avec d'autres développeurs.
 
 **EN**🇬🇧
 
 I am a **19-year-old** young developer passionate about **Java programming**. An active member of **various teams**, I engage in diverse projects ranging from software development to systems management. My goal is to create innovative and effective solutions while continuing to learn and grow in the field of development.
 
-Additionally, I am interested in learning new programming languages like **Python** and in Linux system administration. I am also involved in open-source projects where I can share my skills and collaborate with other developers.
+Additionally, I am interested in learning new programming languages and in Linux system administration. I am also involved in open-source projects where I can share my skills and collaborate with other developers.
 
 ---
 
